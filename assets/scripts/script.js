@@ -8,8 +8,8 @@ element.classList.toggle('fire')
 
 
 // изменение текста
-if (element.textContent=="УРА!!!") element.textContent="ПОКА!"
-    else element.textContent="УРА!!!"
+if (element.textContent=="СМЕНА КАРТИНКИ!!!") element.textContent="ПОКА!"
+    else element.textContent="СМЕНА КАРТИНКИ!!!!!!"
 }
 let btn= document.getElementById ('btn');
 console.log(btn);
