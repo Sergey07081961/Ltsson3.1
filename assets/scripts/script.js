@@ -5,11 +5,9 @@ let element=document.getElementById("el1");
 //let element=document.getElementById("btn");
 element.classList.toggle('fire')
 //конец
-
-
 // изменение текста
 if (element.textContent=="СМЕНА КАРТИНКИ!!!") element.textContent="ПОКА!"
-    else element.textContent="СМЕНА КАРТИНКИ!!!!!!"
+    else element.textContent="СМЕНА КАРТИНКИ!!!"
 }
 let btn= document.getElementById ('btn');
 console.log(btn);
